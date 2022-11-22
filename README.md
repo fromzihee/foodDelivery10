@@ -1,5 +1,3 @@
-# 
-
 ## Model
 www.msaez.io/#/storming/BlMX5BCHc0YEJeI3cq9YQSZVG8U2/d7c18adf3fb7549c6c46553769ae6994
 ![image](https://user-images.githubusercontent.com/78025432/203244048-30fd32e1-9738-421a-9ed3-3abc03766716.png)
@@ -10,7 +8,14 @@ www.msaez.io/#/storming/BlMX5BCHc0YEJeI3cq9YQSZVG8U2/d7c18adf3fb7549c6c46553769a
 
 본 예제는 MSA/DDD/Event Storming/EDA 를 포괄하는 분석/설계/구현/운영 전단계를 커버하도록 구성한 예제입니다.
 이는 클라우드 네이티브 애플리케이션의 개발에 요구되는 체크포인트들을 통과하기 위한 예시 답안을 포함합니다.
-- 체크포인트 : https://workflowy.com/s/assessment-check-po/T5YrzcMewfo4J6LW
+
+# 체크포인트
+1. Saga (Pub / Sub)
+2. CQRS
+3. Compensation / Correlation
+4. Request / Response
+5. Circuit Breaker
+6. Gateway / Ingress
 
 # 서비스 시나리오
 
@@ -35,18 +40,6 @@ www.msaez.io/#/storming/BlMX5BCHc0YEJeI3cq9YQSZVG8U2/d7c18adf3fb7549c6c46553769a
 1. 성능
     1. 고객이 자주 상점관리에서 확인할 수 있는 배달상태를 주문시스템(프론트엔드)에서 확인할 수 있어야 한다  CQRS
     1. 배달상태가 바뀔때마다 카톡 등으로 알림을 줄 수 있어야 한다  Event driven
-    
-```
-cd kafka
-docker-compose up
-```
-- Check the Kafka messages:
-```
-cd kafka
-docker-compose exec -it kafka /bin/bash
-cd /bin
-./kafka-console-consumer --bootstrap-server localhost:9092 --topic
-```
 
 ## Run the backend micro-services
 See the README.md files inside the each microservices directory:
