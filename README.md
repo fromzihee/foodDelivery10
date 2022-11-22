@@ -43,6 +43,8 @@ www.msaez.io/#/storming/BlMX5BCHc0YEJeI3cq9YQSZVG8U2/d7c18adf3fb7549c6c46553769a
 2. 기능수정: store에서 음식이 완료가 되면 customer 카카오로 알림이 간다.
 ![image](https://user-images.githubusercontent.com/78025432/203257023-9dd291d7-c929-444f-bf2e-027bbaa16da5.png)
 
+![image](https://user-images.githubusercontent.com/78025432/203258184-aa0fb037-ec1b-4244-ac03-d46900cb7424.png)
+
 ![image](https://user-images.githubusercontent.com/78025432/203257470-87e14c15-d1cd-4416-89a6-a8865e942bee.png)
 
 
