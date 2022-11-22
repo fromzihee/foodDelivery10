@@ -31,14 +31,14 @@ www.msaez.io/#/storming/BlMX5BCHc0YEJeI3cq9YQSZVG8U2/d7c18adf3fb7549c6c46553769a
 1. 고객이 주문상태를 중간중간 조회한다
 1. 주문상태가 바뀔 때 마다 카톡으로 알림을 보낸다
 
-## 1. Saga(Pub/Sub)
+## Saga(Pub/Sub)
 1. 기능추가: store에서 쿠폰이 발행이 되면 customer 카카오로 알림이 간다.
 ![image](https://user-images.githubusercontent.com/78025432/203253093-83aad525-cbbe-46f2-b1b4-5449a051299f.png)
 
 ![image](https://user-images.githubusercontent.com/78025432/203253414-08464303-703f-44b2-b5d4-3218c2db67c7.png)
 
-
-3. 기능추가: 주문 count를 세서 베스트 메뉴를 추천 알림한다. 
+## Saga(Pub/Sub)
+2. 기능추가: 주문 count를 세서 베스트 메뉴를 추천 알림한다. 
 
 ## Run the backend micro-services
 See the README.md files inside the each microservices directory:
