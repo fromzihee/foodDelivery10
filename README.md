@@ -37,8 +37,16 @@ www.msaez.io/#/storming/BlMX5BCHc0YEJeI3cq9YQSZVG8U2/d7c18adf3fb7549c6c46553769a
 
 ![image](https://user-images.githubusercontent.com/78025432/203253414-08464303-703f-44b2-b5d4-3218c2db67c7.png)
 
+![image](https://user-images.githubusercontent.com/78025432/203254832-b6a840d7-f7cf-408d-8e4f-67df36399b1b.png)
+
 ## Saga(Pub/Sub)
-2. 기능추가: 주문 count를 세서 베스트 메뉴를 추천 알림한다. 
+2. 기능수정: store에서 음식이 완료가 되면 customer 카카오로 알림이 간다.
+![image](https://user-images.githubusercontent.com/78025432/203257023-9dd291d7-c929-444f-bf2e-027bbaa16da5.png)
+
+![image](https://user-images.githubusercontent.com/78025432/203257470-87e14c15-d1cd-4416-89a6-a8865e942bee.png)
+
+
+
 
 ## Run the backend micro-services
 See the README.md files inside the each microservices directory:
