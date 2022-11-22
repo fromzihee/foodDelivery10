@@ -41,7 +41,7 @@ www.msaez.io/#/storming/BlMX5BCHc0YEJeI3cq9YQSZVG8U2/d7c18adf3fb7549c6c46553769a
     1. 고객이 자주 상점관리에서 확인할 수 있는 배달상태를 주문시스템(프론트엔드)에서 확인할 수 있어야 한다  CQRS
     1. 배달상태가 바뀔때마다 카톡 등으로 알림을 줄 수 있어야 한다  Event driven
 
-## Saga(Pub/Sub)
+## 1. Saga(Pub/Sub)
 
 ## Run the backend micro-services
 See the README.md files inside the each microservices directory:
