@@ -47,8 +47,14 @@ www.msaez.io/#/storming/BlMX5BCHc0YEJeI3cq9YQSZVG8U2/d7c18adf3fb7549c6c46553769a
 
 ![image](https://user-images.githubusercontent.com/78025432/203257470-87e14c15-d1cd-4416-89a6-a8865e942bee.png)
 
+## CQRS
+1. 거절되었을 때
+![image](https://user-images.githubusercontent.com/78025432/203259054-e0d29356-303e-442c-996a-0e0776ef63c0.png)
+![image](https://user-images.githubusercontent.com/78025432/203259203-bed55b24-165c-4737-a9de-0d864be777c8.png)
+![image](https://user-images.githubusercontent.com/78025432/203259288-4205aca4-2dc3-49d1-8bc6-36e8b528f530.png)
 
-
+## Gateway / Ingress
+![image](https://user-images.githubusercontent.com/78025432/203259707-c551e7b5-9ad2-41b1-8ba1-aa97acabf2e0.png)
 
 ## Run the backend micro-services
 See the README.md files inside the each microservices directory:
