@@ -31,17 +31,14 @@ www.msaez.io/#/storming/BlMX5BCHc0YEJeI3cq9YQSZVG8U2/d7c18adf3fb7549c6c46553769a
 1. 고객이 주문상태를 중간중간 조회한다
 1. 주문상태가 바뀔 때 마다 카톡으로 알림을 보낸다
 
-비기능적 요구사항
-1. 트랜잭션
-    1. 결제가 되지 않은 주문건은 아예 거래가 성립되지 않아야 한다  Sync 호출 
-1. 장애격리
-    1. 상점관리 기능이 수행되지 않더라도 주문은 365일 24시간 받을 수 있어야 한다  Async (event-driven), Eventual Consistency
-    1. 결제시스템이 과중되면 사용자를 잠시동안 받지 않고 결제를 잠시후에 하도록 유도한다  Circuit breaker, fallback
-1. 성능
-    1. 고객이 자주 상점관리에서 확인할 수 있는 배달상태를 주문시스템(프론트엔드)에서 확인할 수 있어야 한다  CQRS
-    1. 배달상태가 바뀔때마다 카톡 등으로 알림을 줄 수 있어야 한다  Event driven
-
 ## 1. Saga(Pub/Sub)
+1. 기능추가: store에서 쿠폰이 발행이 되면 customer 카카오로 알림이 간다.
+![image](https://user-images.githubusercontent.com/78025432/203253093-83aad525-cbbe-46f2-b1b4-5449a051299f.png)
+
+![image](https://user-images.githubusercontent.com/78025432/203253414-08464303-703f-44b2-b5d4-3218c2db67c7.png)
+
+
+3. 기능추가: 주문 count를 세서 베스트 메뉴를 추천 알림한다. 
 
 ## Run the backend micro-services
 See the README.md files inside the each microservices directory:
