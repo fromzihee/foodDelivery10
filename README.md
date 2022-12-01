@@ -53,8 +53,18 @@ www.msaez.io/#/storming/BlMX5BCHc0YEJeI3cq9YQSZVG8U2/d7c18adf3fb7549c6c46553769a
 ![image](https://user-images.githubusercontent.com/78025432/203259203-bed55b24-165c-4737-a9de-0d864be777c8.png)
 ![image](https://user-images.githubusercontent.com/78025432/203259288-4205aca4-2dc3-49d1-8bc6-36e8b528f530.png)
 
+2. 기능수정
+![image](https://user-images.githubusercontent.com/78025432/204995584-14245299-1595-4f51-9d79-d8e203aa5e37.png)
+
+## Request / Response
+![image](https://user-images.githubusercontent.com/78025432/204995893-907e7c05-bac0-467f-9d95-8a2ff443657e.png)
+
+##Circuit Breaker
+![image](https://user-images.githubusercontent.com/78025432/204995951-a41c3f8e-a297-46af-9b3c-bc67e17665d1.png)
+
 ## Gateway / Ingress
 ![image](https://user-images.githubusercontent.com/78025432/203259707-c551e7b5-9ad2-41b1-8ba1-aa97acabf2e0.png)
+
 
 ## Run the backend micro-services
 See the README.md files inside the each microservices directory:
